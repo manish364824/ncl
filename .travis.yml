@@ -1,5 +1,10 @@
 sudo: false
 language: C++
+
+arch:
+ - amd64
+ - ppc64le
+ 
 compiler:
     - clang++
 install:
